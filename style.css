@@ -1,33 +1,44 @@
 *{
     margin: 0;
     padding: 0;
-    /* background-color: #F8F9FA; */
+    
 
+}
+.logo{
+    width: 60px;
+    
 }
 .navbar-brand{
     margin-left: 200px;
     font-size: 30px;
+    
+    
 }
 .navmar{
     margin-left: 700px;
 }
 .nav-link{
     margin-left: 30px;
+    color: #fff;
+}
+.navbar-custom{
+    background-color: #3caea3; /* NAVBAR COLOR change*/
+    
 }
 
 .home{
     height: 90vh;
     width: 100%;
-    /* border: 1px solid red; */
+    
     display: flex;
     align-items: center;
     justify-content: space-between;
-    /* background-color: #F8F9FA; */
+    
 }
 .textbox{
     height: 100%;
     width: 50%;
-    /* border: 1px solid blue; */
+    
     display: flex;
     align-items: center;
     justify-content: center;
@@ -38,10 +49,19 @@
 .texth1{
     font-size: 38px;
     margin-bottom: 20px;
+    font-family: 'poppins'; /* font chage korle google font er link ta agee link tag e add koba tarpor etar font name ta chage kore diba*/
+}
+.mld{
+    font-size: 40px;
+}
+.cod{
+    font-size: 29px;
 }
 .textp{
     font-size: 16px;
-    margin-bottom: 65px;
+    margin-bottom: 45px;
+    font-family: sans-serif ;/* font chage korle google font er link ta agee link tag e add koba tarpor etar font name ta chage kore diba*/
+
 }
 
 .imgbox{
@@ -58,8 +78,8 @@
 }
 .btn{
     margin-right: 25px;
-    background-color: #6C63FF;
-    border: 1px solid #6C63FF;
+   
+   
 }
 .video{
     width: 100%;
@@ -67,7 +87,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    /* background-color: #F8F9FA; */
+   
 }
 iframe{
     width: 1000px;
